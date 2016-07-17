@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "/Users/numerized/Work/firebase-ionic-2-demo-master/node_modules/angularfire2/firebase3.d.ts",
+    "raw": "file:node_modules/angularfire2/firebase3.d.ts",
+    "typings": "/Users/numerized/Work/firebase-ionic-2-demo-master/node_modules/angularfire2/firebase3.d.ts"
+  }
+}

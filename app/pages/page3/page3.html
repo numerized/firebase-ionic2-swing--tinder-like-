@@ -1,0 +1,17 @@
+
+<ion-navbar *navbar primary>
+	<ion-title>
+		Authentication Demo
+	</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page3">
+	<login *ngIf='!isAuth'></login>
+	<div *ngIf='isAuth'>
+		<h3>Nicely done!</h3>
+		<p><strong>Your private message:</strong> {{private}}</p>
+		<div padding>
+			<logout></logout>
+		</div>
+	</div>
+</ion-content>
